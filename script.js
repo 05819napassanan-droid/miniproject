@@ -1,4 +1,4 @@
-const URL = "./my_model/";
+const URL = "./";
 
 let model, webcam, labelContainer, maxPredictions;
 
@@ -43,3 +43,4 @@ async function predict() {
         labelContainer.childNodes[i].innerHTML = classPrediction;
     }
 }
+
